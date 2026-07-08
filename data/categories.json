@@ -1,0 +1,28 @@
+[{
+    "id": 1,
+    "category": "men's clothing",
+    "img": "https://media.partner.md-fashion.com.ua/images/catalog-product-desktop/ae/25/271fc4062a6b966cc5685224a19e.jpg/muzhskoj-seryj-longsliv-longsword-avecs-3059217-seryj.webp",
+    "href": "men's clothing"
+},
+
+{
+    "id": 2,
+    "category": "jewelery",
+    "img": "https://mimadastimargarita.gr/wp-content/uploads/2025/05/asimenio-kolie-metis-me-silica_3-570x853.jpeg",
+    "href": "/jewelery"
+},
+
+{
+    "id": 3,
+    "category": "electronics",
+    "img": "https://img.magnific.com/free-vector/gadgets-isometric-concept_1284-16511.jpg?semt=ais_hybrid&w=740&q=80",
+    "href": "/electronics"
+},
+
+{
+    "id": 4,
+    "category": "women's clothing",
+    "img": "https://media.thewhitecompany.com/i/white/uk-su26-wk40-clothing-sbc2?fmt=auto&$mobile-image$",
+    "href": "women's clothing"
+}
+]
