@@ -6,7 +6,6 @@ const jwt = require('jsonwebtoken')
 const auth = async(req, _, next) => {
     const {authorization = ''} = req.headers
     const [bearer, token] = authorization.split(' ')
-    console.log('+++++++++++++++++');
     
     try {
         if(bearer !== 'Bearer' || !token) {
@@ -29,7 +28,7 @@ const auth = async(req, _, next) => {
         if(error.message === 'invalid signature') {
             error.status = 401
         }
-        next()
+        next(error)
     }
 }
 module.exports = auth
