@@ -3,7 +3,7 @@ const controlWrap = (control) => {
         try{
             await control(req, res, next)
         } catch(error) {
-            next
+            next(error)
         }
     }
 }
