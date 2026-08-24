@@ -16,7 +16,11 @@ const userDbScheme = Schema({
         type: String,
         require: [true, 'password is required'],
         minLenght: 6
-    }, 
+    },
+    avatarURL: {
+       type: String,
+       default: null
+    },
     token: {
       type: String,
       default: ''
