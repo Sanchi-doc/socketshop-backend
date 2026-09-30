@@ -1,7 +1,7 @@
 [{
     "id": 1,
     "category": "men's clothing",
-    "img": "https://media.partner.md-fashion.com.ua/images/catalog-product-desktop/ae/25/271fc4062a6b966cc5685224a19e.jpg/muzhskoj-seryj-longsliv-longsword-avecs-3059217-seryj.webp",
+    "img": "/images/ootd-robin-james.gif",
     "href": "men's clothing"
 },
 
@@ -15,14 +15,14 @@
 {
     "id": 3,
     "category": "electronics",
-    "img": "https://img.magnific.com/free-vector/gadgets-isometric-concept_1284-16511.jpg?semt=ais_hybrid&w=740&q=80",
+    "img": "https://i.pinimg.com/736x/5b/c2/56/5bc256839fe0147cf250f63504dcee86.jpg",
     "href": "/electronics"
 },
 
 {
     "id": 4,
     "category": "women's clothing",
-    "img": "https://media.thewhitecompany.com/i/white/uk-su26-wk40-clothing-sbc2?fmt=auto&$mobile-image$",
+    "img": "https://media.thewhitecompany.com/i/white/uk-su26-wk40-clothing-sbc2?fmt=auto&$mobile-image$&w=570&h=853&q=80",
     "href": "women's clothing"
 }
 ]
