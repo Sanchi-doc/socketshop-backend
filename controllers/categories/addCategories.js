@@ -1,15 +1,35 @@
+const { Category } = require('../../models/category')
+const cloudinaryImgUpload = require('../../utils/claudinaryImgUpload')
+const customError = require('../../utils/customError')
+
 const addCategories = async (req, res) => {
     const { body, file } = req
 
-    console.log('body:', body)
-    console.log('file:', file)
-
-    if (file) {
-        const { avatarUrl } = await claudinaryImgUpload(req)
-        body.avatarUrl = avatarUrl
-    } else {
-        body.avatarUrl = body.avatar
+    if (!body.category) {
+        throw customError('category is required', 400)
     }
 
-    console.log('body:', body)
+    if (file) {
+        const { avatarURL } = await cloudinaryImgUpload(req)
+        body.image = avatarURL
+    }
+
+    const newCategory = await Category.create({
+        category: body.category,
+        image: body.image,
+        href: body.href || `/${body.category}`,
+    })
+
+    return res.status(201).json({
+        response: 'success',
+        status: 201,
+        data: {
+            id: newCategory._id,
+            category: newCategory.category,
+            image: newCategory.image,
+            href: newCategory.href,
+        },
+    })
 }
+
+module.exports = addCategories

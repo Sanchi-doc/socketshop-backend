@@ -6,6 +6,6 @@ const upload = require('../middlewares/upload')
 const productRouter = express.Router()
 
 productRouter.get('/categories', controlWrap(categories))
-productRouter.patch('/info/update', upload.single('avatar'),controlWrap(addCategories))
+productRouter.post('/categories', upload.single('image'), controlWrap(addCategories))
 
 module.exports = productRouter

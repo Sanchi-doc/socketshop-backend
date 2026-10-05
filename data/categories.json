@@ -1,28 +1,28 @@
 [{
     "id": 1,
     "category": "men's clothing",
-    "img": "/images/ootd-robin-james.gif",
-    "href": "men's clothing"
+    "img": "https://res.cloudinary.com/xuqmsjml/image/upload/v1790758884/images/oyxl1bqbn3asl4uwntie.gif",
+    "href": "/men's clothing"
 },
 
 {
     "id": 2,
     "category": "jewelery",
-    "img": "https://mimadastimargarita.gr/wp-content/uploads/2025/05/asimenio-kolie-metis-me-silica_3-570x853.jpeg",
+    "img": "https://res.cloudinary.com/xuqmsjml/image/upload/v1790758970/images/vftl9njjvefpslzkixke.gif",
     "href": "/jewelery"
 },
 
 {
     "id": 3,
     "category": "electronics",
-    "img": "https://i.pinimg.com/736x/5b/c2/56/5bc256839fe0147cf250f63504dcee86.jpg",
+    "img": "https://res.cloudinary.com/xuqmsjml/image/upload/v1790758996/images/zts4qhcyna8ez3nidqx5.gif",
     "href": "/electronics"
 },
 
 {
     "id": 4,
     "category": "women's clothing",
-    "img": "https://media.thewhitecompany.com/i/white/uk-su26-wk40-clothing-sbc2?fmt=auto&$mobile-image$&w=570&h=853&q=80",
-    "href": "women's clothing"
+    "img": "https://res.cloudinary.com/xuqmsjml/image/upload/v1790758931/images/qn15w4ggliz0oh6wzlte.gif",
+    "href": "/women's clothing"
 }
 ]
